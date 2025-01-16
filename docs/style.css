@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #e4e8f0;
+    color: #b8293c;
+    text-align: center;
+}
+
+h1,
+p {
+    font-size: 60px;
+}
+
+#value {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 25px;
+    color: #773404;
+    cursor: pointer;
+    transition: 0.25s;
+    background-color: #ffa260;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    border-color: #773404;
+    color: #773404;
+}
+
+#btnR {
+    background-color: #773404;
+    color: #ffa260;
+}
